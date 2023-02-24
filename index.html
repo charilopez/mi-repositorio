@@ -1,33 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clase GIT</title>
+    <link rel="shortcut icon" href="imagenes/icono.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Vinculacion con css-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Inicio</title>
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="#"></a>Link 1</li>
-          <li><a href="#"></a>Link 2</li>
-          <li><a href="#"></a>Link 3</li>
-          <li><a href="#"></a>Link 4</li>
-          <li><a href="#"></a>Link 5</li>
-        </ul>
-      </nav>
+      <div class="container">
+        <a href=""><img src="imagenes/Logo-Mussa-accesorios.webp" alt="" /></a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Quienes somos</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="pages/productos.html"
+                >Nuestros productos</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="pages/formaPago.html"
+                >Formas de pago</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="pages/tips.html">Tips</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <section>
-      <article>
-        <h2>Sub Titulo</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
-          saepe voluptatibus aliquam rerum architecto qui reiciendis minima
-          optio est. Sed corrupti dolore fugiat repellendus veritatis aliquid
-          consequuntur labore, voluptatibus corporis.
-        </p>
-      </article>
-    </section>
+    <main>
+      <section id="seccion-principal">
+        <div class="container">
+          <h1 class="display-2">
+            <span class="displat-2--intro"
+              >Tienda Online de Indumentaria & Accesorios</span
+            >
+            <span class="display-2--descripcion">
+              Nuestra historia En el año 2020, MUSSA nace como un pequeño
+              proyecto de venta de accesorios de mujer.
+            </span>
+          </h1>
+          <div class="img-box">
+            <img src="imagenes/moda.jpg" alt="Chica a la moda" />
+          </div>
+        </div>
+      </section>
+      <!-- Practica de selectores en CSS (inicio) -->
+
+      <div class="actividad1">
+        <p>Hola soy Rosario</p>
+      </div>
+
+      <div class="actividad2">
+        <p>Hola soy Colo</p>
+      </div>
+
+      <div class="actividad3">
+        <p>Hola soy Informatica</p>
+      </div>
+
+      <!-- Practica de selectores en CSS (fin)-->
+    </main>
+    <!-- Aqui comienza elfooter -->
+    <footer class="footer">
+      <div class="footer-sm">
+        <div class="container">
+          <div class="row footer-sm__icons">
+            <div>Buscanos en redes</div>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

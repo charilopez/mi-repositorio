@@ -1,0 +1,121 @@
+h1 {
+  color: rgb(0, 225, 255);
+}
+
+* {
+  margin: 0; /* Margenes */
+  padding: 0; /* Relleno */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* En la siguiente linea se agregara margen maximo del 100% a todas las imagenes */
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: beige;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__list {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+#seccion-principal {
+  background-color: bisque;
+}
+
+.display-2--intro {
+  font-weight: 700;
+}
+.display-2 {
+  text-transform: capitalize;
+  color: white;
+  font-size: 4.5rem;
+}
+
+.display-2--descripcion {
+  font-size: 1.4rem;
+}
+
+.img-box {
+  text-align: right;
+}
+
+/* Esilos footer */
+.footer {
+  background-color: cadetblue;
+}
+.footer-sm {
+  background-color: darkcyan;
+}
+
+.footer-sm a {
+  color: white;
+}
+.footer-sm a i {
+  font-size: 1rem;
+}
+
+.footer-sm__icons {
+  text-align: center;
+}
+/* visto en clase 
+  
+  footer {
+    background-image: url(../imagenes/pexels-benjamin-suter-3617500.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  */
+
+/* Actividad de clase */
+
+/* La sentencia inline-block se utiliza para poner un contenedor "caja" uno al lado del otro 
+  
+  Ejemplo-inicio*/
+
+.actividad1 {
+  display: inline-block;
+  padding: 1rem;
+  background-color: crimson;
+}
+
+.actividad2 {
+  display: inline-block;
+  padding: 1rem;
+  background-color: teal;
+  position: relative;
+}
+
+.actividad3 {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #b64490;
+}
+/* Ejemplo-fin */
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
